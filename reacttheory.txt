@@ -1,0 +1,121 @@
+1. What are React components? Explain functional vs class components.
+ans:the react are the framwork to use only the React components are reusable building blocks of a UI. and They represent parts of the page like buttons, forms,  headers.
+Functional components:  the functional components are the Simple Javascript functions that return JSX. file in react.
+
+Class components:the class components are the  Older style using ES6 classes with lifecycle methods. Today we mostly use functional and 
+hooks that are easy to work on the any kind of code and also easy to understand.
+
+
+
+
+
+
+2. What is the difference between state and props?
+ans: the difference between the state and props are the follow by:
+Props: the props are the used for the Data passed from parent to child, and also use in the read-only.
+
+State:the state are the used Data managed inside a component, and its can change with setState and  useState.
+
+
+
+
+
+
+
+3. Explain the concept of Virtual DOM and how React uses it.
+ans: the concept of the Virtual DOM in React keeps a virtual copy of the real DOM in memory. When something changes in React updates the virtual DOM first and also compares it with the previous one 
+and only updates the real DOM where needed faster UI updates. this is the uses of the virtual DOM.
+
+
+
+
+
+
+4. What are React Hooks? Name a few commonly used ones and their use cases.
+ans: the react Hooks is use state and features in functional components and its can use for commonly use in react.
+
+Common ones:
+useState: the useState are the manage state.
+useEffect:the useEffect are the  run side effects API calls, timers.
+useRef:the useRef are the store mutable values, access DOM.
+useContext: the useContext are the use global context values.
+
+this is a some Commonly used use cases.
+
+
+ 
+
+
+
+5. What is the difference between useEffect and useLayoutEffect?
+ans:useEffect:the useEffect are run side effects and the this also use for the API calls timers  runs after the browser paints the screen non-blocking.
+
+useLayoutEffect: the useLayoutEffect are the runs before the paint, useful for measuring DOM and the  sync layout.
+
+this is the difference between the useEffect and the useLayoutEffect.
+
+
+
+
+
+
+6. What is the purpose of useMemo and useCallback hooks?
+ans:useMemo: the purpose of the useMemo are the in react the Caches a calculated value so it doesnot recalc every render.
+
+useCallback: the purpose of the useCallback is Caches a function so it doesnot get recreated on every render and helps with performance.
+
+
+
+
+
+
+
+7. How does React handle reconciliation and diffing?
+ans:React compares the old virtual DOM with the new one diffing.
+If something changes it  is the updates only that part of the real DOM. This smart update process is called reconciliation.
+
+
+
+
+
+
+8. What are controlled vs uncontrolled components in React?
+ans:Controlled: the controlled components in react are Input values are managed by React state value on Change.
+
+Uncontrolled:  the uncontrolled components in react are Input values are handled by the DOM itself use ref to access.
+
+
+
+
+
+
+9. How do you implement routing in a React application?
+ans: the implement Routing in the react application is Use react-router-dom the app in <BrowserRouter> then use <Routes> and <Route> to map URL to components.
+
+
+
+
+
+
+10. What are React’s best practices for performance optimization?
+ans:the react best practices are Use React memo for memoizing components and Use useMemo useCallback to avoid re-renders
+load components with React Keep components small and reusable avoid unnecessary state in parent components. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
